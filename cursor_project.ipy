@@ -8,7 +8,7 @@ import mediapipe as mp
 ctk.set_appearance_mode("light")
 ctk.set_default_color_theme("blue")
 
-# Zaokrąglenie kamerki bo ładne :)
+# Zaokrąglenie kamerki bo ładne ;)
 def round_corners(img, radius):
     mask = Image.new("L", img.size, 0)
     draw = ImageDraw.Draw(mask)
@@ -215,7 +215,6 @@ btn2.grid(row=0, column=1, padx=(3,10), sticky='we')
 buttonframe.pack(fill='x')
 
 
-# Zabawa z progiem i suwakiem :')
 slider_frame = ctk.CTkFrame(window, fg_color="transparent")
 slider_frame.pack(padx=10, pady=(5, 10), fill='x')
 
@@ -255,3 +254,4 @@ window.mainloop()
 
 cap.release()
 cv2.destroyAllWindows()
+
