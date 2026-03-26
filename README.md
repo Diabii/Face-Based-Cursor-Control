@@ -1,4 +1,4 @@
-# Face-Basec Cursor Control
+# Face-Based Cursor Control
 
 A Python application that enables hands-free cursor control using facial movements captured from a webcam. The system tracks face position to move the cursor and detects mouth gestures for mouse clicks.
 
